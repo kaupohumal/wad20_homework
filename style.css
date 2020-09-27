@@ -22,9 +22,6 @@ body{
     margin:-200px 0 0 -200px;
 
 
-
-
-
 }
 
 
@@ -35,24 +32,32 @@ body{
     border: 1px;
     margin: 1px;
     padding: 0;
-    flex-basis: calc(25% - 20px);
 }
-
-
-
-
 
 
 
 
 .Welcome{
     flex:1;
-    order:1;
+    order:0;
+}
+.Welcome  h2 {
+    padding-top: 10%;
+    padding-left: 32%;
+    
+}
+.Welcome img {   
+    float: left;
+    height: 70%;
+    width: 25%;
+
 }
 .Account{
-
     flex:1;
-    order:2;
+    order:1;
+}
+.Account h3 {
+    padding-top: 0%;
 }
 .name{
     flex:1;

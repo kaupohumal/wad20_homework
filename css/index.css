@@ -45,9 +45,6 @@ nav div.search-container > input {
 
     margin-left: 23%;
 
-
-
-
     padding: 5px;
 
     border: 1px solid #e0e0e0;
@@ -152,6 +149,13 @@ nav div.search-container > button {
     font-size: 35px;
 
   }
+  .box_content img {
+    
+    float: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   .box_footer {
 
 
@@ -165,3 +169,7 @@ nav div.search-container > button {
 
     width: 96%;
   }
+.box_footer img {
+    height: 5%;
+    width: 5%;
+}
