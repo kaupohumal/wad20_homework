@@ -1,0 +1,71 @@
+body{
+    background-color:cornflowerblue;
+}
+
+.container{
+    display:flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 550px;
+    position: center;
+    right:100px;
+    justify-content: center;
+    align-content: center;
+
+
+
+
+}
+.container div {
+    border:5px ;
+    padding:1px;
+
+    flex-basis: 50%;
+
+
+    background-size: 120px 80px;
+}
+
+.Welcome{
+    flex:1;
+    order:1;
+}
+.Account{
+
+    flex:1;
+    order:2;
+}
+.name{
+    flex:1;
+    order:5;
+}
+.password{
+    flex:1;
+    order:6;
+}
+.submit{
+    flex:1;
+    order:7;
+    background-color: blue;
+    border:none;
+    color:white;
+    padding:8px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.or{
+    flex:1;
+    order:3;
+}
+.Please{
+    flex:1;
+    order:4;
+}
+.forgot{
+    flex:1;
+    order:8;
+}
+
